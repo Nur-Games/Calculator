@@ -5,7 +5,6 @@ body {
     padding-top: 50px;
 }
 
-/* Калькулятор қорабы */
 .calculator {
     width: 280px;
     margin: auto;
@@ -15,7 +14,6 @@ body {
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
 }
 
-/* Дисплей */
 #display {
     width: 100%;
     height: 60px;
@@ -29,7 +27,6 @@ body {
     box-sizing: border-box;
 }
 
-/* Кнопкалар */
 .buttons {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -46,12 +43,6 @@ button {
     transition: background 0.2s;
 }
 
-/* Басылған кезде анимация */
-button:active {
-    background: #d0d0d0;
-}
-
-/* "C" батырмасы (қызыл, ұзын) */
 .clear {
     grid-column: span 2;
     background: #ff4c4c;
@@ -63,13 +54,11 @@ button:active {
     background: #d43f3f;
 }
 
-/* "=" батырмасы */
 .equal {
     background: #4CAF50;
     color: white;
 }
 
-/* 0 батырмасы үлкен болсын */
 .zero {
     grid-column: span 2;
 }
